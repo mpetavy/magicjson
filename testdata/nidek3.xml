@@ -1,0 +1,291 @@
+<Data>
+	<Company>NIDEK</Company>
+	<ModelName>ARK-1s4</ModelName>
+	<ROMVersion>1.00.02 /5.05</ROMVersion>
+	<Version>1.01</Version>
+	<Date>2023/03/11</Date>
+	<Time>16:03:07</Time>
+	<Patient>
+		<No.>0002</No.>
+		<ID>nd007</ID>
+	</Patient>
+	<Comment>NIDEK ARK-1s</Comment>
+	<VD>12.00 mm</VD>
+	<WorkingDistance>40 cm</WorkingDistance>
+	<ARDiopterStep>0.01D</ARDiopterStep>
+	<KMDiopterStep>0.01D</KMDiopterStep>
+	<ACCDiopterStep>0.01D</ACCDiopterStep>
+	<AxisStep>1°</AxisStep>
+	<CylinderMode>-</CylinderMode>
+	<Refractivelndex>1.3375</Refractivelndex>
+	<R>
+		<AR>
+			<ARList No="1">
+				<Sphere>-6.38</Sphere>
+				<Cylinder>-0.63</Cylinder>
+				<Axis>179</Axis>
+				<CataractMode>ON</CataractMode>
+				<Confidencelndex>94</Confidencelndex>
+				<SE>-6.70</SE>
+			</ARList>
+			<ARList No="2">
+				<Error>COVR</Error>
+			</ARList>
+			<ARList No="3">
+				<Sphere>-6.38</Sphere>
+				<Cylinder>-0.63</Cylinder>
+				<Axis>179</Axis>
+			</ARList>
+			<ARMedian>
+				<Sphere>-6.38</Sphere>
+				<Cylinder>-0.64</Cylinder>
+				<Axis>177</Axis>
+				<SE>-6.70</SE>
+			</ARMedian>
+			<TrialLens>
+				<Sphere>-6.25</Sphere>
+				<Cylinder>-0.75</Cylinder>
+				<Axis>177</Axis>
+			</TrialLens>
+			<ContactLens>
+				<Sphere>-5.93</Sphere>
+				<Cylinder>-0.54</Cylinder>
+				<Axis>177</Axis>
+				<SE>-6.20</SE>
+			</ContactLens>
+			<RingImage>ARK 4902205625223_20130311160307RA1jpg</RingImage>
+		</AR>
+		<VA>
+			<UCVA>0.1</UCVA>
+			<BCVA>1.0</BCVA>
+			<LVA>0.8</LVA>
+			<GVA>0.5</GVA>
+			<NVA>0.8</NVA>
+			<WD>35 cm</WD>
+		</VA>
+		<SR>
+			<Sphere>-6.25</Sphere>
+			<Cylinder>-0.75</Cylinder>
+			<Axis>177</Axis>
+			<ConfidenceIndex>-6.75</ConfidenceIndex>
+			<ADD>+1.75</ADD>
+			<WD>35 cm</WD>
+		</SR>
+		<LM>
+			<Sphere>-0.50</Sphere>
+			<Cylinder>-0.00</Cylinder>
+			<Axis>0</Axis>
+			<ConfidenceIndex>-6.75</ConfidenceIndex>
+			<ADD>+3.00</ADD>
+			<ADD2>+3.50</ADD2>
+		</LM>
+		<KM>
+			<KMList No="1">
+				<R1>
+					<Radius>7.56</Radius>
+					<Power>44.64</Power>
+					<Axis>179</Axis>
+				</R1>
+				<R2>
+					<Radius>7.29</Radius>
+					<Power>46.30</Power>
+					<Axis>89</Axis>
+				</R2>
+				<Average>
+					<Radius>7.43</Radius>
+					<Power>45.42</Power>
+				</Average>
+				<KMCylinder>
+					<Power>-1.66</Power>
+					<Axis>179</Axis>
+				</KMCylinder>
+			</KMList>
+			<KMList No="2">
+			</KMList>
+			<KMMedian>
+				<R1>
+					<Radius>7.55</Radius>
+					<Power>44.70</Power>
+					<Axis>178</Axis>
+				</R1>
+				<R2>
+					<Radius>7.29</Radius>
+					<Power>46.30</Power>
+					<Axis>88</Axis>
+				</R2>
+				<Average>
+					<Radius>7.42</Radius>
+					<Power>45.49</Power>
+				</Average>
+				<KMCylinder>
+					<Power>-1.60</Power>
+					<Axis>178</Axis>
+				</KMCylinder>
+			</KMMedian>
+		</KM>
+		<CS>
+			<CSList No="1">
+				<Size>12.1</Size>
+			</CSList>
+		</CS>
+		<PS>
+			<PSList No="1">
+				<Size>4.7</Size>
+				<Lamp>ON</Lamp>
+			</PSList>
+		</PS>
+		<AC>
+			<Sphere>8.15</Sphere>
+			<MaxPS>4.1</MaxPS>
+			<MinPS>1.6</MinPS>
+			<AccImage>ARK_4902205625223_20130311160307RC1.jpg</AccImage>
+		</AC>
+		<RI>
+			<COIH>0.7</COIH>
+			<COIA>1</COIA>
+			<POI>0</POI>
+			<Retrolmage>ARK_4902205625223_20130311160307R11.jpg</Retrolmage>
+		</RI>
+	</R>
+	
+	<L>
+			<AR>
+			<ARList No="1">
+				<Sphere>-6.38</Sphere>
+				<Cylinder>-0.63</Cylinder>
+				<Axis>179</Axis>
+				<CataractMode>ON</CataractMode>
+				<Confidencelndex>94</Confidencelndex>
+				<SE>-6.70</SE>
+			</ARList>
+			<ARList No="2">
+				<Error>COVR</Error>
+			</ARList>
+			<ARList No="3">
+				<Sphere>-6.38</Sphere>
+				<Cylinder>-0.63</Cylinder>
+				<Axis>179</Axis>
+			</ARList>
+			<ARMedian>
+				<Sphere>-5.78</Sphere>
+				<Cylinder>-0.48</Cylinder>
+				<Axis>136</Axis>
+				<SE>-6.70</SE>
+			</ARMedian>
+			<TrialLens>
+				<Sphere>-6.25</Sphere>
+				<Cylinder>-0.75</Cylinder>
+				<Axis>177</Axis>
+			</TrialLens>
+			<ContactLens>
+				<Sphere>-5.93</Sphere>
+				<Cylinder>-0.54</Cylinder>
+				<Axis>177</Axis>
+				<SE>-6.20</SE>
+			</ContactLens>
+			<RingImage>ARK 4902205625223_20130311160307RA1jpg</RingImage>
+		</AR>
+		<VA>
+			<UCVA>0.1</UCVA>
+			<BCVA>1.0</BCVA>
+			<LVA>0.8</LVA>
+			<GVA>0.5</GVA>
+			<NVA>0.8</NVA>
+			<WD>35 cm</WD>
+		</VA>
+		<SR>
+			<Sphere>-6.25</Sphere>
+			<Cylinder>-0.75</Cylinder>
+			<Axis>177</Axis>
+			<ConfidenceIndex>-6.75</ConfidenceIndex>
+			<ADD>+1.75</ADD>
+			<WD>35 cm</WD>
+		</SR>
+		<LM>
+			<Sphere>-0.50</Sphere>
+			<Cylinder>-0.00</Cylinder>
+			<Axis>0</Axis>
+			<ConfidenceIndex>-6.75</ConfidenceIndex>
+			<ADD>+3.00</ADD>
+			<ADD2>+3.50</ADD2>
+		</LM>
+		<KM>
+			<KMList No="1">
+				<R1>
+					<Radius>7.56</Radius>
+					<Power>44.64</Power>
+					<Axis>179</Axis>
+				</R1>
+				<R2>
+					<Radius>7.29</Radius>
+					<Power>46.30</Power>
+					<Axis>89</Axis>
+				</R2>
+				<Average>
+					<Radius>7.43</Radius>
+					<Power>45.42</Power>
+				</Average>
+				<KMCylinder>
+					<Power>-1.66</Power>
+					<Axis>179</Axis>
+				</KMCylinder>
+			</KMList>
+			<KMList No="2">
+			</KMList>
+			<KMMedian>
+				<R1>
+					<Radius>7.55</Radius>
+					<Power>44.70</Power>
+					<Axis>178</Axis>
+				</R1>
+				<R2>
+					<Radius>7.29</Radius>
+					<Power>46.30</Power>
+					<Axis>88</Axis>
+				</R2>
+				<Average>
+					<Radius>7.42</Radius>
+					<Power>45.49</Power>
+				</Average>
+				<KMCylinder>
+					<Power>-1.60</Power>
+					<Axis>178</Axis>
+				</KMCylinder>
+			</KMMedian>
+		</KM>
+		<CS>
+			<CSList No="1">
+				<Size>12.1</Size>
+			</CSList>
+		</CS>
+		<PS>
+			<PSList No="1">
+				<Size>4.7</Size>
+				<Lamp>ON</Lamp>
+			</PSList>
+		</PS>
+		<AC>
+			<Sphere>8.15</Sphere>
+			<MaxPS>4.1</MaxPS>
+			<MinPS>1.6</MinPS>
+			<AccImage>ARK_4902205625223_20130311160307RC1.jpg</AccImage>
+		</AC>
+		<RI>
+			<COIH>0.7</COIH>
+			<COIA>1</COIA>
+			<POI>0</POI>
+			<Retrolmage>ARK_4902205625223_20130311160307R11.jpg</Retrolmage>
+		</RI>
+	</L>
+	
+	<PD>
+		<PDList No="1">
+			<FarPD>56</FarPD>
+			<RPD>28</RPD>
+			<LPD>28</LPD>
+			<NearPD>53</NearPD>
+		</PDList>
+		<PDList No="2">
+		</PDList>
+	</PD>
+</Data>

@@ -1,0 +1,12 @@
+{
+    "Name": "{{ .Data.Company }}"
+    "Date": "{{ .Data.Date }}"
+    "ARLIst": ["
+    {{ range $key, $value := .Data.L.AR.ARList }}
+        {
+            "-No" : {{ GetValue $value "No" }}
+            "-No" : {{ .No }}
+        }
+    {{ end }}
+    "]"
+}
