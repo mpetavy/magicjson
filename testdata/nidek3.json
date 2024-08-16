@@ -1,0 +1,317 @@
+{
+    "Data": {
+        "ACCDiopterStep": "0.01D",
+        "ARDiopterStep": "0.01D",
+        "AxisStep": "1°",
+        "Comment": "NIDEK ARK-1s",
+        "Company": "NIDEK",
+        "CylinderMode": "-",
+        "Date": "2023/03/11",
+        "KMDiopterStep": "0.01D",
+        "L": {
+            "AC": {
+                "AccImage": "ARK_4902205625223_20130311160307RC1.jpg",
+                "MaxPS": "4.1",
+                "MinPS": "1.6",
+                "Sphere": "8.15"
+            },
+            "AR": {
+                "ARList": [
+                    {
+                        "-No": "1",
+                        "Axis": "179",
+                        "CataractMode": "ON",
+                        "Confidencelndex": "94",
+                        "Cylinder": "-0.63",
+                        "SE": "-6.70",
+                        "Sphere": "-6.38"
+                    },
+                    {
+                        "-No": "2",
+                        "Error": "COVR"
+                    },
+                    {
+                        "-No": "3",
+                        "Axis": "179",
+                        "Cylinder": "-0.63",
+                        "Sphere": "-6.38"
+                    }
+                ],
+                "ARMedian": {
+                    "Axis": "136",
+                    "Cylinder": "-0.48",
+                    "SE": "-6.70",
+                    "Sphere": "-5.78"
+                },
+                "ContactLens": {
+                    "Axis": "177",
+                    "Cylinder": "-0.54",
+                    "SE": "-6.20",
+                    "Sphere": "-5.93"
+                },
+                "RingImage": "ARK 4902205625223_20130311160307RA1jpg",
+                "TrialLens": {
+                    "Axis": "177",
+                    "Cylinder": "-0.75",
+                    "Sphere": "-6.25"
+                }
+            },
+            "CS": {
+                "CSList": {
+                    "-No": "1",
+                    "Size": "12.1"
+                }
+            },
+            "KM": {
+                "KMList": [
+                    {
+                        "-No": "1",
+                        "Average": {
+                            "Power": "45.42",
+                            "Radius": "7.43"
+                        },
+                        "KMCylinder": {
+                            "Axis": "179",
+                            "Power": "-1.66"
+                        },
+                        "R1": {
+                            "Axis": "179",
+                            "Power": "44.64",
+                            "Radius": "7.56"
+                        },
+                        "R2": {
+                            "Axis": "89",
+                            "Power": "46.30",
+                            "Radius": "7.29"
+                        }
+                    },
+                    {
+                        "-No": "2"
+                    }
+                ],
+                "KMMedian": {
+                    "Average": {
+                        "Power": "45.49",
+                        "Radius": "7.42"
+                    },
+                    "KMCylinder": {
+                        "Axis": "178",
+                        "Power": "-1.60"
+                    },
+                    "R1": {
+                        "Axis": "178",
+                        "Power": "44.70",
+                        "Radius": "7.55"
+                    },
+                    "R2": {
+                        "Axis": "88",
+                        "Power": "46.30",
+                        "Radius": "7.29"
+                    }
+                }
+            },
+            "LM": {
+                "ADD": "+3.00",
+                "ADD2": "+3.50",
+                "Axis": "0",
+                "ConfidenceIndex": "-6.75",
+                "Cylinder": "-0.00",
+                "Sphere": "-0.50"
+            },
+            "PS": {
+                "PSList": {
+                    "-No": "1",
+                    "Lamp": "ON",
+                    "Size": "4.7"
+                }
+            },
+            "RI": {
+                "COIA": "1",
+                "COIH": "0.7",
+                "POI": "0",
+                "Retrolmage": "ARK_4902205625223_20130311160307R11.jpg"
+            },
+            "SR": {
+                "ADD": "+1.75",
+                "Axis": "177",
+                "ConfidenceIndex": "-6.75",
+                "Cylinder": "-0.75",
+                "Sphere": "-6.25",
+                "WD": "35 cm"
+            },
+            "VA": {
+                "BCVA": "1.0",
+                "GVA": "0.5",
+                "LVA": "0.8",
+                "NVA": "0.8",
+                "UCVA": "0.1",
+                "WD": "35 cm"
+            }
+        },
+        "ModelName": "ARK-1s4",
+        "PD": {
+            "PDList": [
+                {
+                    "-No": "1",
+                    "FarPD": "56",
+                    "LPD": "28",
+                    "NearPD": "53",
+                    "RPD": "28"
+                },
+                {
+                    "-No": "2"
+                }
+            ]
+        },
+        "Patient": {
+            "ID": "nd007",
+            "No.": "0002"
+        },
+        "R": {
+            "AC": {
+                "AccImage": "ARK_4902205625223_20130311160307RC1.jpg",
+                "MaxPS": "4.1",
+                "MinPS": "1.6",
+                "Sphere": "8.15"
+            },
+            "AR": {
+                "ARList": [
+                    {
+                        "-No": "1",
+                        "Axis": "179",
+                        "CataractMode": "ON",
+                        "Confidencelndex": "94",
+                        "Cylinder": "-0.63",
+                        "SE": "-6.70",
+                        "Sphere": "-6.38"
+                    },
+                    {
+                        "-No": "2",
+                        "Error": "COVR"
+                    },
+                    {
+                        "-No": "3",
+                        "Axis": "179",
+                        "Cylinder": "-0.63",
+                        "Sphere": "-6.38"
+                    }
+                ],
+                "ARMedian": {
+                    "Axis": "177",
+                    "Cylinder": "-0.64",
+                    "SE": "-6.70",
+                    "Sphere": "-6.38"
+                },
+                "ContactLens": {
+                    "Axis": "177",
+                    "Cylinder": "-0.54",
+                    "SE": "-6.20",
+                    "Sphere": "-5.93"
+                },
+                "RingImage": "ARK 4902205625223_20130311160307RA1jpg",
+                "TrialLens": {
+                    "Axis": "177",
+                    "Cylinder": "-0.75",
+                    "Sphere": "-6.25"
+                }
+            },
+            "CS": {
+                "CSList": {
+                    "-No": "1",
+                    "Size": "12.1"
+                }
+            },
+            "KM": {
+                "KMList": [
+                    {
+                        "-No": "1",
+                        "Average": {
+                            "Power": "45.42",
+                            "Radius": "7.43"
+                        },
+                        "KMCylinder": {
+                            "Axis": "179",
+                            "Power": "-1.66"
+                        },
+                        "R1": {
+                            "Axis": "179",
+                            "Power": "44.64",
+                            "Radius": "7.56"
+                        },
+                        "R2": {
+                            "Axis": "89",
+                            "Power": "46.30",
+                            "Radius": "7.29"
+                        }
+                    },
+                    {
+                        "-No": "2"
+                    }
+                ],
+                "KMMedian": {
+                    "Average": {
+                        "Power": "45.49",
+                        "Radius": "7.42"
+                    },
+                    "KMCylinder": {
+                        "Axis": "178",
+                        "Power": "-1.60"
+                    },
+                    "R1": {
+                        "Axis": "178",
+                        "Power": "44.70",
+                        "Radius": "7.55"
+                    },
+                    "R2": {
+                        "Axis": "88",
+                        "Power": "46.30",
+                        "Radius": "7.29"
+                    }
+                }
+            },
+            "LM": {
+                "ADD": "+3.00",
+                "ADD2": "+3.50",
+                "Axis": "0",
+                "ConfidenceIndex": "-6.75",
+                "Cylinder": "-0.00",
+                "Sphere": "-0.50"
+            },
+            "PS": {
+                "PSList": {
+                    "-No": "1",
+                    "Lamp": "ON",
+                    "Size": "4.7"
+                }
+            },
+            "RI": {
+                "COIA": "1",
+                "COIH": "0.7",
+                "POI": "0",
+                "Retrolmage": "ARK_4902205625223_20130311160307R11.jpg"
+            },
+            "SR": {
+                "ADD": "+1.75",
+                "Axis": "177",
+                "ConfidenceIndex": "-6.75",
+                "Cylinder": "-0.75",
+                "Sphere": "-6.25",
+                "WD": "35 cm"
+            },
+            "VA": {
+                "BCVA": "1.0",
+                "GVA": "0.5",
+                "LVA": "0.8",
+                "NVA": "0.8",
+                "UCVA": "0.1",
+                "WD": "35 cm"
+            }
+        },
+        "ROMVersion": "1.00.02 /5.05",
+        "Refractivelndex": "1.3375",
+        "Time": "16:03:07",
+        "VD": "12.00 mm",
+        "Version": "1.01",
+        "WorkingDistance": "40 cm"
+    }
+}
