@@ -9,6 +9,7 @@ import (
 	xj "github.com/basgys/goxml2json"
 	"github.com/lenaten/hl7"
 	"github.com/mpetavy/common"
+	"github.com/paulrosania/go-charset/charset"
 	"github.com/saintfish/chardet"
 	"html/template"
 	"io"
@@ -19,20 +20,13 @@ import (
 //go:embed go.mod
 var resources embed.FS
 
-type Pet struct {
-	Name   string
-	Sex    string
-	Intact bool
-	Age    string
-	Breed  string
-}
-
 var (
-	inputFile     = flag.String("i", "", "Input filename. Use . to read from STDIN")
-	inputEncoding = flag.String("e", "", "Input encoding")
-	outputFile    = flag.String("o", "", "Output filename. Omit to print to STDOUT")
-	templateFile  = flag.String("t", "", "Template filename or directory")
-	clean         = flag.Bool("c", false, "Clean key names")
+	inputFile      = flag.String("i", "", "Input filename. Use . to read from STDIN")
+	inputEncoding  = flag.String("ie", "", "Input encoding")
+	outputFile     = flag.String("o", "", "Output filename. Omit to print to STDOUT")
+	outputEncoding = flag.String("oe", "", "Output encoding")
+	templateFile   = flag.String("t", "", "Template filename or directory")
+	clean          = flag.Bool("c", false, "Clean key names")
 
 	hl7Doc *hl7.Message
 )
@@ -221,6 +215,27 @@ func run() error {
 		buf := bytes.Buffer{}
 
 		err = tmpl.Execute(&buf, jsonObj)
+		if common.Error(err) {
+			return err
+		}
+
+		output = buf.Bytes()
+	}
+
+	if *outputEncoding != "" && *outputEncoding != "UTF-8" {
+		buf := bytes.Buffer{}
+
+		w, err := charset.NewWriter(*outputEncoding, &buf)
+		if common.Error(err) {
+			return err
+		}
+
+		_, err = w.Write(output)
+		if common.Error(err) {
+			return err
+		}
+
+		err = w.Close()
 		if common.Error(err) {
 			return err
 		}
