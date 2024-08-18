@@ -7,6 +7,7 @@ import (
 	"flag"
 	"fmt"
 	xj "github.com/basgys/goxml2json"
+	"github.com/lenaten/hl7"
 	"github.com/mpetavy/common"
 	"github.com/saintfish/chardet"
 	"html/template"
@@ -33,48 +34,13 @@ var (
 	templateFile  = flag.String("t", "", "Template filename or directory")
 	clean         = flag.Bool("c", false, "Clean key names")
 
-	dogs = []Pet{
-		{
-			Name:   "Jujube",
-			Sex:    "Female",
-			Intact: false,
-			Age:    "10 months",
-			Breed:  "German Shepherd/Pitbull",
-		},
-		{
-			Name:   "Zephyr",
-			Sex:    "Male",
-			Intact: true,
-			Age:    "13 years, 3 months",
-			Breed:  "German Shepherd/Border Collie",
-		},
-	}
+	hl7Doc *hl7.Message
 )
 
 type JsonMap map[string]any
 
 func init() {
 	common.Init("", "", "", "", "", "", "", "", &resources, nil, nil, run, 0)
-}
-
-func ReadBytes(r io.Reader) ([]byte, error) {
-	buf := bytes.Buffer{}
-	ba := make([]byte, 8192)
-
-	for {
-		n, err := r.Read(ba)
-		if err == io.EOF {
-			return buf.Bytes(), nil
-		}
-		if common.Error(err) {
-			return nil, err
-		}
-
-		_, err = buf.Write(ba[:n])
-		if common.Error(err) {
-			return nil, err
-		}
-	}
 }
 
 func ReadXML(ba []byte) (JsonMap, error) {
@@ -94,14 +60,21 @@ func ReadXML(ba []byte) (JsonMap, error) {
 }
 
 func ReadHL7(ba []byte) (JsonMap, error) {
-	buf, err := xj.Convert(bytes.NewBuffer(ba))
+	msgs, err := hl7.NewDecoder(bytes.NewReader(ba)).Messages()
+	if common.Error(err) {
+		return nil, err
+	}
+
+	hl7Doc = msgs[0]
+
+	ba, err = json.MarshalIndent(hl7Doc, "", "    ")
 	if common.Error(err) {
 		return nil, err
 	}
 
 	var result JsonMap
 
-	err = json.Unmarshal(buf.Bytes(), &result)
+	err = json.Unmarshal(ba, &result)
 	if common.Error(err) {
 		return nil, err
 	}
@@ -144,7 +117,7 @@ func run() error {
 	if *inputFile == "." {
 		var err error
 
-		ba, err = ReadBytes(os.Stdin)
+		ba, err = io.ReadAll(os.Stdin)
 		if common.Error(err) {
 			return err
 		}
@@ -181,6 +154,7 @@ func run() error {
 	}
 
 	var jsonObj JsonMap
+	var funcMap template.FuncMap
 
 	switch {
 	case strings.HasSuffix(*inputFile, ".json"):
@@ -195,6 +169,17 @@ func run() error {
 		if common.Error(err) {
 			return err
 		}
+
+		funcMap = template.FuncMap{
+			"GetValue": func(location string) (any, error) {
+				v, err := hl7Doc.Find(location)
+				if common.Error(err) {
+					return nil, err
+				}
+
+				return v, nil
+			},
+		}
 	case strings.HasSuffix(*inputFile, ".xml"):
 		var err error
 
@@ -202,24 +187,18 @@ func run() error {
 		if common.Error(err) {
 			return err
 		}
+
+		funcMap = template.FuncMap{
+			"GetValue": func(m map[string]any, key string) any {
+				return m[key]
+			},
+		}
 	default:
 		return fmt.Errorf("Unsupport file type. only .hl7 .json and .xml allowed")
 	}
 
-	org, _ := json.MarshalIndent(jsonObj, "", "    ")
-	err := os.WriteFile("/home/ransom/temp/org.json", org, common.DefaultFileMode)
-	if common.Error(err) {
-		return err
-	}
-
 	if *clean {
 		jsonObj = cleanKeys(jsonObj)
-	}
-
-	mod, _ := json.MarshalIndent(jsonObj, "", "    ")
-	err = os.WriteFile("/home/ransom/temp/mod.json", mod, common.DefaultFileMode)
-	if common.Error(err) {
-		return err
 	}
 
 	formattedJson, err := json.MarshalIndent(jsonObj, "", "    ")
@@ -234,12 +213,6 @@ func run() error {
 	output := formattedJson
 
 	if *templateFile != "" {
-		funcMap := template.FuncMap{
-			"GetValue": func(m map[string]any, key string) any {
-				return m[key]
-			},
-		}
-
 		tmpl, err := template.New(*templateFile).Funcs(funcMap).ParseFiles(*templateFile)
 		if common.Error(err) {
 			return err
@@ -258,7 +231,10 @@ func run() error {
 	if *outputFile == "" {
 		fmt.Printf("%s", output)
 	} else {
-		os.WriteFile(*outputFile, output, common.DefaultFileMode)
+		err := os.WriteFile(*outputFile, output, common.DefaultFileMode)
+		if common.Error(err) {
+			return err
+		}
 	}
 
 	return nil
