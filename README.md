@@ -10,6 +10,14 @@ For any source data other than JSON MAGICJSON generates at first a JSON represen
 
 In order to control the output a GO template file can be used.
 
+## Workflow of MAGICJSON
+
+* Read from input file or STDIN (-i)
+* Convert to UTF-8 encoding if necessary
+* Convert XML/HL7 to JSON representation
+* Transform JSON via GO template to output (-t)
+* Write output (-o)
+
 ## Useful links
 
 * https://pkg.go.dev/text/template
