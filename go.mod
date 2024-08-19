@@ -5,7 +5,7 @@ go 1.21.3
 require (
 	github.com/basgys/goxml2json v1.1.0
 	github.com/lenaten/hl7 v0.0.0-20181009090854-63c5c49a56d9
-	github.com/mpetavy/common v1.8.59
+	github.com/mpetavy/common v1.8.60
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d
 )
