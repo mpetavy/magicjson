@@ -18,6 +18,10 @@ In order to control the output a GO template file can be used.
 * Transform JSON via GO template to output (-t)
 * Write output (-o)
 
+## Template usage
+
+The JSON representation is the data anchor (i.e. the . operand) which is given to the executing template defined by the -t parameter.
+
 ## Useful links
 
 * https://pkg.go.dev/text/template
