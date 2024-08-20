@@ -62,3 +62,4 @@ The JSON representation is the data anchor (i.e. the . operand) which is given t
 ## Transform JSON, XML or HL7 by using a GO template directly
 
     magicjson -i nidek3.xml -t '{{ .Data.Company }}'
+    magicjson -nb -i testdata/sample-hl7.hl7 -t '{{ GetValue "PID.5.1" }}'
