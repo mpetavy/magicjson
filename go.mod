@@ -4,10 +4,9 @@ go 1.21.3
 
 require (
 	github.com/basgys/goxml2json v1.1.0
-	github.com/lenaten/hl7 v0.0.0-20181009090854-63c5c49a56d9
-	github.com/mpetavy/common v1.8.60
+	github.com/mpetavy/common v1.8.61
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c
-	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d
+	github.com/stretchr/testify v1.9.0
 )
 
 require (
@@ -16,6 +15,7 @@ require (
 	github.com/bitly/go-simplejson v0.5.1 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/creack/goselect v0.1.2 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.11.2 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
@@ -35,7 +35,9 @@ require (
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.18 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b // indirect
+	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect

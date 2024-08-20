@@ -46,8 +46,6 @@ github.com/labstack/echo/v4 v4.10.2 h1:n1jAhnq/elIFTHr1EYpiYtyKgx4RW9ccVgkqByZaN
 github.com/labstack/echo/v4 v4.10.2/go.mod h1:OEyqf2//K1DFdE57vw2DRgWY0M7s65IVQO2FzvI4J5k=
 github.com/labstack/gommon v0.4.0 h1:y7cvthEAEbU0yHOf4axH8ZG2NH8knB9iNSoTO8dyIk8=
 github.com/labstack/gommon v0.4.0/go.mod h1:uW6kP17uPlLJsD3ijUYn3/M5bAxtlZhMI6m3MFxTMTM=
-github.com/lenaten/hl7 v0.0.0-20181009090854-63c5c49a56d9 h1:PPwNFFvgwrFCihLzfyZlIyqpD4UCsGZJbcBT3NgZOUo=
-github.com/lenaten/hl7 v0.0.0-20181009090854-63c5c49a56d9/go.mod h1:B9oOaE16haedgiMIeVBP3yFZyH+DCHa778Fi4Sy4cPQ=
 github.com/mailru/easyjson v0.7.7 h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=
 github.com/mailru/easyjson v0.7.7/go.mod h1:xzfreul335JAWq5oZzymOObrkdz5UnU4kGfJJLY9Nlc=
 github.com/mattn/go-colorable v0.1.11/go.mod h1:u5H1YNBxpqRaxsYJYSkiCWKzEfiAb1Gb520KVy5xxl4=
@@ -57,8 +55,8 @@ github.com/mattn/go-isatty v0.0.14/go.mod h1:7GGIvUiUoEMVVmxf/4nioHXj79iQHKdU27k
 github.com/mattn/go-isatty v0.0.16/go.mod h1:kYGgaQfpe5nmfYZH+SKPsOc2e4SrIfOl2e/yFXSvRLM=
 github.com/mattn/go-isatty v0.0.18 h1:DOKFKCQ7FNG2L1rbrmstDN4QVRdS89Nkh85u68Uwp98=
 github.com/mattn/go-isatty v0.0.18/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
-github.com/mpetavy/common v1.8.60 h1:LnE2njUK9ghcXl9sUDEI6EeRYT2/3dFvRe99BazKiWI=
-github.com/mpetavy/common v1.8.60/go.mod h1:6/uSdyn30jiqTAP4Kqgse+2XbeChYIL9X0XKS8k7gI4=
+github.com/mpetavy/common v1.8.61 h1:LFDpyM/VFvKbDUkB5DVRAwE0gXeutXM30egWi3hn8mk=
+github.com/mpetavy/common v1.8.61/go.mod h1:DfsOYlSzNbfewzV53ru+fv8P8idQ7WgasJ1Oc4uEwE8=
 github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c h1:P6XGcuPTigoHf4TSu+3D/7QOQ1MbL6alNwrGhcW7sKw=
 github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c/go.mod h1:YnNlZP7l4MhyGQ4CBRwv6ohZTPrUJJZtEv4ZgADkbs4=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

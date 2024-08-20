@@ -7,13 +7,12 @@ import (
 	"flag"
 	"fmt"
 	xj "github.com/basgys/goxml2json"
-	"github.com/lenaten/hl7"
 	"github.com/mpetavy/common"
 	"github.com/paulrosania/go-charset/charset"
-	"github.com/saintfish/chardet"
 	"html/template"
 	"io"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -28,7 +27,7 @@ var (
 	templateFile   = flag.String("t", "", "Template filename or directory")
 	clean          = flag.Bool("c", false, "Clean key names")
 
-	hl7Doc *hl7.Message
+	hl7Doc *Hl7Message
 )
 
 type JsonMap map[string]any
@@ -54,12 +53,12 @@ func ReadXML(ba []byte) (JsonMap, error) {
 }
 
 func ReadHL7(ba []byte) (JsonMap, error) {
-	msgs, err := hl7.NewDecoder(bytes.NewReader(ba)).Messages()
+	var err error
+
+	hl7Doc, err = NewHL7Message(ba)
 	if common.Error(err) {
 		return nil, err
 	}
-
-	hl7Doc = msgs[0]
 
 	ba, err = json.MarshalIndent(hl7Doc, "", "    ")
 	if common.Error(err) {
@@ -124,27 +123,11 @@ func run() error {
 		}
 	}
 
-	encoding := *inputEncoding
+	var err error
 
-	if encoding == "" {
-		detector := chardet.NewTextDetector()
-		result, err := detector.DetectBest(ba)
-		if !common.WarnError(err) {
-			encoding = result.Charset
-		}
-	}
-
-	common.Info("Input encoding: %s", encoding)
-
-	if strings.ToUpper(encoding) != "UTF-8" {
-		var err error
-
-		common.Info("Convert to UTF-8")
-
-		ba, err = common.ToUTF8(bytes.NewReader(ba), encoding)
-		if common.Error(err) {
-			return err
-		}
+	ba, err = common.ToUTF8(ba, *inputEncoding)
+	if common.Error(err) {
+		return err
 	}
 
 	var jsonObj JsonMap
@@ -166,7 +149,7 @@ func run() error {
 
 		funcMap = template.FuncMap{
 			"GetValue": func(location string) (any, error) {
-				v, err := hl7Doc.Find(location)
+				v, err := hl7Doc.GetValue(location)
 				if common.Error(err) {
 					return nil, err
 				}
@@ -183,8 +166,8 @@ func run() error {
 		}
 
 		funcMap = template.FuncMap{
-			"GetValue": func(m map[string]any, key string) any {
-				return m[key]
+			"GetValue": func(hl7Msg *Hl7Message, key string) any {
+				return key
 			},
 		}
 	default:
@@ -207,14 +190,14 @@ func run() error {
 	output := formattedJson
 
 	if *templateFile != "" {
-		tmpl, err := template.New(*templateFile).Funcs(funcMap).ParseFiles(*templateFile)
+		tmpl, err := template.New(filepath.Base(*templateFile)).Funcs(funcMap).ParseFiles(*templateFile)
 		if common.Error(err) {
 			return err
 		}
 
 		buf := bytes.Buffer{}
 
-		err = tmpl.Execute(&buf, jsonObj)
+		err = tmpl.Execute(&buf, hl7Doc)
 		if common.Error(err) {
 			return err
 		}
