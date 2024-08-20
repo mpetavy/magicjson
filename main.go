@@ -33,7 +33,7 @@ var (
 type JsonMap map[string]any
 
 func init() {
-	common.Init("", "", "", "", "", "", "", "", &resources, nil, nil, run, 0)
+	common.Init("", "1.0.0", "", "", "", "", "", "", &resources, nil, nil, run, 0)
 }
 
 func ReadXML(ba []byte) (JsonMap, error) {

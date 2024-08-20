@@ -1,2107 +1,2378 @@
 {
-    "Delimeters": {
-        "Component": 94,
-        "DelimeterField": "^~\\\u0026",
-        "Escape": 92,
-        "Field": 124,
-        "LFTermMsg": false,
-        "Repetition": 126,
-        "SubComponent": 38,
-        "Truncate": 35
-    },
     "Segments": [
         {
-            "Fields": [
+            "fields": [
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "TVNI"
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "MSH"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "TVNI"
+                            ]
                         }
-                    ],
-                    "SeqNum": 0,
-                    "Value": "TVNI"
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "fA=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "fA=="
-                        }
-                    ],
-                    "SeqNum": 1,
-                    "Value": "fA=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "Xn5cJg=="
-                                }
-                            ],
-                            "Value": "Xn5cJg=="
-                        }
-                    ],
-                    "SeqNum": 2,
-                    "Value": "Xn5cJg=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "RVBJQw=="
-                                }
-                            ],
-                            "Value": "RVBJQw=="
-                        }
-                    ],
-                    "SeqNum": 3,
-                    "Value": "RVBJQw=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "RVBJQ0FEVA=="
-                                }
-                            ],
-                            "Value": "RVBJQ0FEVA=="
-                        }
-                    ],
-                    "SeqNum": 4,
-                    "Value": "RVBJQ0FEVA=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "aUZX"
-                                }
-                            ],
-                            "Value": "aUZX"
-                        }
-                    ],
-                    "SeqNum": 5,
-                    "Value": "aUZX"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "U01TQURU"
-                                }
-                            ],
-                            "Value": "U01TQURU"
-                        }
-                    ],
-                    "SeqNum": 6,
-                    "Value": "U01TQURU"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "MTk5OTEyMjcxNDA4"
-                                }
-                            ],
-                            "Value": "MTk5OTEyMjcxNDA4"
-                        }
-                    ],
-                    "SeqNum": 7,
-                    "Value": "MTk5OTEyMjcxNDA4"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "Q0hBUlJJUw=="
-                                }
-                            ],
-                            "Value": "Q0hBUlJJUw=="
-                        }
-                    ],
-                    "SeqNum": 8,
-                    "Value": "Q0hBUlJJUw=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "QURU"
-                                }
-                            ],
-                            "Value": "QURU"
+                            ]
                         },
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "QTA0"
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "\\\u0026"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "QTA0"
+                            ]
                         }
-                    ],
-                    "SeqNum": 9,
-                    "Value": "QURUXkEwNA=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "MTgxNzQ1Nw=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "EPIC"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "MTgxNzQ1Nw=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 10,
-                    "Value": "MTgxNzQ1Nw=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "RA=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "EPICADT"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "RA=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 11,
-                    "Value": "RA=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "Mi41"
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "iFW"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "Mi41"
+                            ]
                         }
-                    ],
-                    "SeqNum": 12,
-                    "Value": "Mi41"
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "DQ=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "SMSADT"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "DQ=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 13,
-                    "Value": "DQ=="
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "199912271408"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "CHARRIS"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "ADT"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "A04"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "1817457"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "D"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "2.5"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
-            ],
-            "Value": "TVNIfF5+XCZ8RVBJQ3xFUElDQURUfGlGV3xTTVNBRFR8MTk5OTEyMjcxNDA4fENIQVJSSVN8QURUXkEwNHwxODE3NDU3fER8Mi41fA0="
+            ]
         },
         {
-            "Fields": null,
-            "Value": "DQ=="
-        },
-        {
-            "Fields": [
+            "fields": [
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "UElE"
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "PID"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "UElE"
+                            ]
                         }
-                    ],
-                    "SeqNum": 0,
-                    "Value": "UElE"
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 1,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "MDQ5MzU3NQ=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "0493575"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "2"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "ID 1"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "MDQ5MzU3NQ=="
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "454721"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "DOE"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "JOHN"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "DOE"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "JOHN"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "19480203"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "M"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "B"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "254 MYSTREET AVE"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "MYTOWN"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "OH"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "44123"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "USA"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "(216)123-4567"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "M"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "NON"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "repeats": [
+                        {
+                            "composites": [
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "400003403"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "1129086"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "Mg=="
-                                }
-                            ],
-                            "Value": "Mg=="
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "SUQgMQ=="
-                                }
-                            ],
-                            "Value": "SUQgMQ=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 2,
-                    "Value": "MDQ5MzU3NV5eXjJeSUQgMQ=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "NDU0NzIx"
-                                }
-                            ],
-                            "Value": "NDU0NzIx"
-                        }
-                    ],
-                    "SeqNum": 3,
-                    "Value": "NDU0NzIx"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        }
-                    ],
-                    "SeqNum": 4,
-                    "Value": ""
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "RE9F"
-                                }
-                            ],
-                            "Value": "RE9F"
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "Sk9ITg=="
-                                }
-                            ],
-                            "Value": "Sk9ITg=="
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        }
-                    ],
-                    "SeqNum": 5,
-                    "Value": "RE9FXkpPSE5eXl5e"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "RE9F"
-                                }
-                            ],
-                            "Value": "RE9F"
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "Sk9ITg=="
-                                }
-                            ],
-                            "Value": "Sk9ITg=="
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        }
-                    ],
-                    "SeqNum": 6,
-                    "Value": "RE9FXkpPSE5eXl5e"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "MTk0ODAyMDM="
-                                }
-                            ],
-                            "Value": "MTk0ODAyMDM="
-                        }
-                    ],
-                    "SeqNum": 7,
-                    "Value": "MTk0ODAyMDM="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "TQ=="
-                                }
-                            ],
-                            "Value": "TQ=="
-                        }
-                    ],
-                    "SeqNum": 8,
-                    "Value": "TQ=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        }
-                    ],
-                    "SeqNum": 9,
-                    "Value": ""
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "Qg=="
-                                }
-                            ],
-                            "Value": "Qg=="
-                        }
-                    ],
-                    "SeqNum": 10,
-                    "Value": "Qg=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "MjU0IE1ZU1RSRUVUIEFWRQ=="
-                                }
-                            ],
-                            "Value": "MjU0IE1ZU1RSRUVUIEFWRQ=="
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "TVlUT1dO"
-                                }
-                            ],
-                            "Value": "TVlUT1dO"
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "T0g="
-                                }
-                            ],
-                            "Value": "T0g="
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "NDQxMjM="
-                                }
-                            ],
-                            "Value": "NDQxMjM="
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "VVNB"
-                                }
-                            ],
-                            "Value": "VVNB"
-                        }
-                    ],
-                    "SeqNum": 11,
-                    "Value": "MjU0IE1ZU1RSRUVUIEFWRV5eTVlUT1dOXk9IXjQ0MTIzXlVTQQ=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        }
-                    ],
-                    "SeqNum": 12,
-                    "Value": ""
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "KDIxNikxMjMtNDU2Nw=="
-                                }
-                            ],
-                            "Value": "KDIxNikxMjMtNDU2Nw=="
-                        }
-                    ],
-                    "SeqNum": 13,
-                    "Value": "KDIxNikxMjMtNDU2Nw=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        }
-                    ],
-                    "SeqNum": 14,
-                    "Value": ""
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        }
-                    ],
-                    "SeqNum": 15,
-                    "Value": ""
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "TQ=="
-                                }
-                            ],
-                            "Value": "TQ=="
-                        }
-                    ],
-                    "SeqNum": 16,
-                    "Value": "TQ=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "Tk9O"
-                                }
-                            ],
-                            "Value": "Tk9O"
-                        }
-                    ],
-                    "SeqNum": 17,
-                    "Value": "Tk9O"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "NDAwMDAzNDAz"
-                                }
-                            ],
-                            "Value": "NDAwMDAzNDAz"
-                        }
-                    ],
-                    "SeqNum": 18,
-                    "Value": "NDAwMDAzNDAz"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "MTEyOTA4Ng=="
-                                }
-                            ],
-                            "Value": "MTEyOTA4Ng=="
-                        }
-                    ],
-                    "SeqNum": 18,
-                    "Value": "MTEyOTA4Ng=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "DQ=="
-                                }
-                            ],
-                            "Value": "DQ=="
-                        }
-                    ],
-                    "SeqNum": 19,
-                    "Value": "DQ=="
+                    ]
                 }
-            ],
-            "Value": "UElEfHwwNDkzNTc1Xl5eMl5JRCAxfDQ1NDcyMXx8RE9FXkpPSE5eXl5efERPRV5KT0hOXl5eXnwxOTQ4MDIwM3xNfHxCfDI1NCBNWVNUUkVFVCBBVkVeXk1ZVE9XTl5PSF40NDEyM15VU0F8fCgyMTYpMTIzLTQ1Njd8fHxNfE5PTnw0MDAwMDM0MDN+MTEyOTA4NnwN"
+            ]
         },
         {
-            "Fields": null,
-            "Value": "DQ=="
-        },
-        {
-            "Fields": [
+            "fields": [
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "Tksx"
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "NK1"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "Tksx"
+                            ]
                         }
-                    ],
-                    "SeqNum": 0,
-                    "Value": "Tksx"
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 1,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "Uk9F"
-                                }
-                            ],
-                            "Value": "Uk9F"
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "ROE"
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": "TUFSSUU="
-                                }
-                            ],
-                            "Value": "TUFSSUU="
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "MARIE"
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 2,
-                    "Value": "Uk9FXk1BUklFXl5eXg=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "U1BP"
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "SPO"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "U1BP"
+                            ]
                         }
-                    ],
-                    "SeqNum": 3,
-                    "Value": "U1BP"
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 4,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "KDIxNikxMjMtNDU2Nw=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "(216)123-4567"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "KDIxNikxMjMtNDU2Nw=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 5,
-                    "Value": "KDIxNikxMjMtNDU2Nw=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 6,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "RUM="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "EC"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "RUM="
+                            ]
                         }
-                    ],
-                    "SeqNum": 7,
-                    "Value": "RUM="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 8,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 9,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 10,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 11,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 12,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 13,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 14,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 15,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 16,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 17,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 18,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 19,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 20,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 21,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 22,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 23,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 24,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 25,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 26,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 27,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 28,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 29,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 30,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 31,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 32,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 33,
-                    "Value": ""
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "DQ=="
-                                }
-                            ],
-                            "Value": "DQ=="
-                        }
-                    ],
-                    "SeqNum": 34,
-                    "Value": "DQ=="
+                    ]
                 }
-            ],
-            "Value": "TksxfHxST0VeTUFSSUVeXl5efFNQT3x8KDIxNikxMjMtNDU2N3x8RUN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHwN"
+            ]
         },
         {
-            "Fields": null,
-            "Value": "DQ=="
-        },
-        {
-            "Fields": [
+            "fields": [
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "UFYx"
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "PV1"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "UFYx"
+                            ]
                         }
-                    ],
-                    "SeqNum": 0,
-                    "Value": "UFYx"
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 1,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "Tw=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "O"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "Tw=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 2,
-                    "Value": "Tw=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "MTY4IA=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "168 "
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "MTY4IA=="
-                        }
-                    ],
-                    "SeqNum": 3,
-                    "Value": "MTY4IA=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "MjE5"
-                                }
-                            ],
-                            "Value": "MjE5"
-                        }
-                    ],
-                    "SeqNum": 3,
-                    "Value": "MjE5"
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "Qw=="
-                                }
-                            ],
-                            "Value": "Qw=="
-                        }
-                    ],
-                    "SeqNum": 3,
-                    "Value": "Qw=="
-                },
-                {
-                    "Components": [
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": "UE1B"
-                                }
-                            ],
-                            "Value": "UE1B"
+                            ]
                         },
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "219"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         },
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "C"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         },
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "PMA"
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 3,
-                    "Value": "UE1BXl5eXl5eXl5e"
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 4,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 5,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 6,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "Mjc3"
-                                }
-                            ],
-                            "Value": "Mjc3"
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "277"
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": "QUxMRU4gTVlMQVNUTkFNRQ=="
-                                }
-                            ],
-                            "Value": "QUxMRU4gTVlMQVNUTkFNRQ=="
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "ALLEN MYLASTNAME"
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": "Qk9OTklF"
-                                }
-                            ],
-                            "Value": "Qk9OTklF"
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "BONNIE"
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
+                                },
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
-                        },
-                        {
-                            "SubComponents": [
-                                {
-                                    "Value": ""
-                                }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 7,
-                    "Value": "Mjc3XkFMTEVOIE1ZTEFTVE5BTUVeQk9OTklFXl5eXg=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 8,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 9,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 10,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 11,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 12,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 13,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 14,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 15,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 16,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "IA=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                " "
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "IA=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 17,
-                    "Value": "IA=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 18,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "MjY4ODY4NA=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "2688684"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "MjY4ODY4NA=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 19,
-                    "Value": "MjY4ODY4NA=="
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 20,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 21,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 22,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 23,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 24,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 25,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 26,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 27,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 28,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 29,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 30,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 31,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 32,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 33,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 34,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 35,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 36,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 37,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 38,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 39,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 40,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 41,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 42,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 43,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "MTk5OTEyMjcxNDA4"
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "199912271408"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "MTk5OTEyMjcxNDA4"
+                            ]
                         }
-                    ],
-                    "SeqNum": 44,
-                    "Value": "MTk5OTEyMjcxNDA4"
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 45,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 46,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 47,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 48,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": ""
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                ""
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": ""
+                            ]
                         }
-                    ],
-                    "SeqNum": 49,
-                    "Value": ""
+                    ]
                 },
                 {
-                    "Components": [
+                    "repeats": [
                         {
-                            "SubComponents": [
+                            "composites": [
                                 {
-                                    "Value": "MDAyMzc2ODUzDQ=="
+                                    "subComposites": [
+                                        {
+                                            "Values": [
+                                                "002376853"
+                                            ]
+                                        }
+                                    ]
                                 }
-                            ],
-                            "Value": "MDAyMzc2ODUzDQ=="
+                            ]
                         }
-                    ],
-                    "SeqNum": 50,
-                    "Value": "MDAyMzc2ODUzDQ=="
+                    ]
                 }
-            ],
-            "Value": "UFYxfHxPfDE2OCB+MjE5fkN+UE1BXl5eXl5eXl5efHx8fDI3N15BTExFTiBNWUxBU1ROQU1FXkJPTk5JRV5eXl58fHx8fHx8fHx8IHx8MjY4ODY4NHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHwxOTk5MTIyNzE0MDh8fHx8fHwwMDIzNzY4NTMN"
-        },
-        {
-            "Fields": null,
-            "Value": "DQ=="
+            ]
         }
     ],
-    "Value": "TVNIfF5+XCZ8RVBJQ3xFUElDQURUfGlGV3xTTVNBRFR8MTk5OTEyMjcxNDA4fENIQVJSSVN8QURUXkEwNHwxODE3NDU3fER8Mi41fA0NUElEfHwwNDkzNTc1Xl5eMl5JRCAxfDQ1NDcyMXx8RE9FXkpPSE5eXl5efERPRV5KT0hOXl5eXnwxOTQ4MDIwM3xNfHxCfDI1NCBNWVNUUkVFVCBBVkVeXk1ZVE9XTl5PSF40NDEyM15VU0F8fCgyMTYpMTIzLTQ1Njd8fHxNfE5PTnw0MDAwMDM0MDN+MTEyOTA4NnwNDU5LMXx8Uk9FXk1BUklFXl5eXnxTUE98fCgyMTYpMTIzLTQ1Njd8fEVDfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8DQ1QVjF8fE98MTY4IH4yMTl+Q35QTUFeXl5eXl5eXl58fHx8Mjc3XkFMTEVOIE1ZTEFTVE5BTUVeQk9OTklFXl5eXnx8fHx8fHx8fHwgfHwyNjg4Njg0fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fDE5OTkxMjI3MTQwOHx8fHx8fDAwMjM3Njg1Mw0N"
+    "compositeSeparator": "^",
+    "escapeSeparator": "\\",
+    "fieldSeparator": "|",
+    "repeatSeparator": "~",
+    "segmentSeparator": "\r",
+    "subCompositeSeparator": "\u0026"
 }
