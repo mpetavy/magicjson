@@ -24,7 +24,7 @@ var (
 	inputEncoding  = flag.String("ie", "", "Input encoding")
 	outputFile     = flag.String("o", "", "Output filename. Omit to print to STDOUT")
 	outputEncoding = flag.String("oe", "", "Output encoding")
-	templateFile   = flag.String("t", "", "Template filename or directory")
+	templateFile   = flag.String("t", "", "Template filename, directory or direct template content")
 	clean          = flag.Bool("c", false, "Clean key names")
 
 	hl7Doc *Hl7Message
@@ -166,8 +166,8 @@ func run() error {
 		}
 
 		funcMap = template.FuncMap{
-			"GetValue": func(hl7Msg *Hl7Message, key string) any {
-				return key
+			"GetValue": func(m map[string]any, key string) any {
+				return m[key]
 			},
 		}
 	default:
@@ -190,16 +190,34 @@ func run() error {
 	output := formattedJson
 
 	if *templateFile != "" {
-		tmpl, err := template.New(filepath.Base(*templateFile)).Funcs(funcMap).ParseFiles(*templateFile)
-		if common.Error(err) {
-			return err
+		var tmpl *template.Template
+
+		if common.FileExists(*templateFile) {
+			var err error
+
+			tmpl, err = template.New(filepath.Base(*templateFile)).Funcs(funcMap).ParseFiles(*templateFile)
+			if common.Error(err) {
+				return err
+			}
+		} else {
+			tmpl, err = template.New("template").Funcs(funcMap).Parse(*templateFile)
+			if common.Error(err) {
+				return err
+			}
 		}
 
 		buf := bytes.Buffer{}
 
-		err = tmpl.Execute(&buf, hl7Doc)
-		if common.Error(err) {
-			return err
+		if hl7Doc != nil {
+			err = tmpl.Execute(&buf, hl7Doc)
+			if common.Error(err) {
+				return err
+			}
+		} else {
+			err = tmpl.Execute(&buf, jsonObj)
+			if common.Error(err) {
+				return err
+			}
 		}
 
 		output = buf.Bytes()

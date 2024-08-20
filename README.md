@@ -31,13 +31,15 @@ The JSON representation is the data anchor (i.e. the . operand) which is given t
 
 ## Usage
 
-| Flag                 | Default value        | Description                                                       |
-| -------------------- | -------------------- |  ----------------------------------------------------------------- |
-| c                    | false                | Clean key names                                                   |
-| e                    |                      | Input encoding                                                    |
-| i                    |                      | Input filename. Use . to read from STDIN                          |
-| o                    |                      | Output filename. Omit to print to STDOUT                          |
-| t                    |                      | Template filename or directory                                    |
+| Flag                 | Default value        | Only CmdLine | Description                                                       |
+| -------------------- | -------------------- | ------------ | ----------------------------------------------------------------- |
+| i                    |                      |              | Input filename. Use . to read from STDIN                          |
+| ie                   |                      |              | Input encoding                                                    |
+| nb                   | false                |              | no copyright banner                                               |
+| o                    |                      |              | Output filename. Omit to print to STDOUT                          |
+| oe                   |                      |              | Output encoding                                                   |
+| t                    |                      |              | Template filename, directory or direct template content           |
+
 
 ## Samples
 
@@ -57,3 +59,6 @@ The JSON representation is the data anchor (i.e. the . operand) which is given t
 
     magicjson -i nidek3.xml -t mytemplate.tmpl -o nidek3.out
 
+## Transform JSON, XML or HL7 by using a GO template directly
+
+    magicjson -i nidek3.xml -t '{{ .Data.Company }}'

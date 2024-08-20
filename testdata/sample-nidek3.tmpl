@@ -4,8 +4,7 @@
     "ARLIst": ["
     {{ range $key, $value := .Data.L.AR.ARList }}
         {
-            "-No" : {{ GetValue $value "No" }}
-            "-No" : {{ .No }}
+            "Juergen CataractMode" : {{ GetValue $value "CataractMode" }}
         }
     {{ end }}
     "]"
