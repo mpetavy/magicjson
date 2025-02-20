@@ -6,7 +6,7 @@ toolchain go1.23.2
 
 require (
 	github.com/basgys/goxml2json v1.1.0
-	github.com/mpetavy/common v1.9.88
+	github.com/mpetavy/common v1.9.89
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c
 	github.com/stretchr/testify v1.9.0
 )
