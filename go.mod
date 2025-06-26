@@ -6,7 +6,7 @@ toolchain go1.23.6
 
 require (
 	github.com/basgys/goxml2json v1.1.0
-	github.com/mpetavy/common v1.10.33
+	github.com/mpetavy/common v1.10.36
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c
 	github.com/stretchr/testify v1.10.0
 )
@@ -40,6 +40,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/quasoft/memstore v0.0.0-20191010062613-2bce066d2b0b // indirect
+	github.com/rs/cors v1.11.1 // indirect
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
